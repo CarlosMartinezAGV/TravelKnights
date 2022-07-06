@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import SignInSide from "./pages/Login";
+import SignInSide from "./components/Login";
 
 function App() {
   return <SignInSide />;
