@@ -10,6 +10,8 @@ app.set("port", process.env.PORT || 5000);
 
 app.use(cors());
 app.use(bodyParser.json());
+
+require("dotenv").config();
 const MongoClient = require("mongodb").MongoClient;
 const url =
   "mongodb+srv://Carlos:solraC@cluster0.ukckn.mongodb.net/?retryWrites=true&w=majority";
