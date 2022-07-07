@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "@parcel/namer-default": "^2.6.2",
     "install-peers": "^1.0.4"
   }
 }
